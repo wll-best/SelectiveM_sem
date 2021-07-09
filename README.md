@@ -1,4 +1,4 @@
-****# Selective Masking
+## Selective Masking
 
 Source code for "Train No Evil: Selective Masking for Task-Guided Pre-Training"
 
