@@ -12,7 +12,7 @@
             "BERT_MODEL": "results/test/origin/CKPT_1M/42/best_model/",
             "DATA_DIR": "../drive/MyDrive/datasets/ABSA/14data_res/",
             "OUTPUT_DIR": "data/datasets/test/full_rule_mask/",
-            "GPU_LIST": "(0 1)",
+            "GPU_LIST": "0,",
             "TASK_NAME": "absa_term"
         },
         "Train_NN": {
@@ -24,14 +24,14 @@
             "BERT_MODEL": "results/test/full_mask_generator/best_model/",
             "DATA_DIR": "../drive/MyDrive/datasets/YELP-AMAZON/yelp_review_full_csv",
             "OUTPUT_DIR": "SelectiveMasking/data/datasets/test/full_yelp/",
-            "GPU_LIST": "(0 1)",
+            "GPU_LIST": "0,",
             "TASK_NAME": "yelp"
         }
     },
     "TaskPT": {
         "DATA_DIR": "data/datasets/test/full_yelp/model/merged/",
         "OUTPUT_DIR": "results/test/full_yelp/model/",
-        "GPU_LIST": "0,1,2,3"
+        "GPU_LIST": "0,"
     },
     "Fine_tuning": {
         "CKPT": "results/test/full_yelp/model/checkpoints/best_ckpt.pt",
