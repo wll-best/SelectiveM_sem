@@ -303,7 +303,7 @@ def main():
                         help="Maximum sequence length.")
     parser.add_argument("--sentence_batch_size",
                         default=32, 
-                        type=int)
+                        type=int)#16
     parser.add_argument("--top_sen_rate",
                         default=0.8,
                         type=float)

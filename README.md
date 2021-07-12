@@ -40,7 +40,7 @@ bash data/create_data_rule/run.sh.
 bash scripts/run_mask_model.sh
 ```
 
-#### 2.4 In-domain Mask
+#### 2.4 In-domain Mask-----colab killed(bs=32,16,1)
 
 ```[bash]
 bash data/create_data_model/run.sh
